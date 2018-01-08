@@ -11,7 +11,7 @@ printf("This is a vowel");
 }
 else
 {
-printf("This is not a vowel");
+printf("This is not a consonant");
 }
 getch();
 }
