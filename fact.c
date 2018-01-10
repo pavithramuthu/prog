@@ -1,22 +1,22 @@
 #include <stdio.h>
 void main()
 {
-    int n, i;
-    unsigned long long factorial = 1;
+ int n,i;
+ int factorial=1;
 clrscr();
-    printf("Enter an integer: ");
+    printf("Enter an integer");
     scanf("%d",&n);
 
-      if (n < 0)
+      if(n<0)
         printf("Error! Factorial of a negative number doesn't exist.");
 
     else
     {
-        for(i=1; i<=n; ++i)
+        for(i=1;i<=n;++i)
         {
-            factorial *= i;             
+            factorial*=i;             
         }
-        printf("Factorial of %d = %llu", n, factorial);
+        printf("Factorial of %d=%llu",n,factorial);
     }
 
     getch();
