@@ -11,9 +11,9 @@ while(n!=0)
 	rn=rn*10+re;
 	n=n/10;
 	if(n==rn)
-	printf("palindrome");
+	printf("yes");
 	else
-	printf("not a palindrome");
+	printf("no");
 }
 	return n;
 }
