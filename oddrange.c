@@ -4,7 +4,7 @@ int main()
     int i,n,m;
       printf("enter the numbers:");
     scanf("%d%d",&m,&n);
-  printf("All even numbers from %d to %d are:\n",m,n);
+  printf("All odd numbers from %d to %d are:\n",m,n);
    for(i=0;i<n;i++)
     {
                if(i%2!=0)
