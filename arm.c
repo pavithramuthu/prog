@@ -1,5 +1,5 @@
 #include<stdio.h>
-main();
+main()
 {
 int n,rem,result=0,orgn;
 printf("enter the number");
@@ -10,7 +10,9 @@ n=n/10;
 if(result==n)
 {
 printf("aemstrong");
+}
 else
-printf("not a armstrong");
+{
+  printf("not a armstrong");
 }
 }
