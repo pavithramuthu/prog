@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
     int i,n,m;
-    clrscr();
       printf("enter the numbers:");
     scanf("%d%d",&m,&n);
   printf("All even numbers from %d to %d are:\n",m,n);
@@ -15,5 +13,5 @@ void main()
         }
         
     }
-    getch();
+   return i;
 }
