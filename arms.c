@@ -1,13 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int n,m,oN,re,res=0;
+    int n,oN,re,res=0;
     
     printf("Enter a three digit integer ranges: ");
-    scanf("%d%d",&n&m);
+    scanf("%d",&n);
 
     oN=n;
-while(n<m)
 {
     while(oN!=0)
     {
@@ -20,6 +19,5 @@ while(n<m)
         printf("%d is an Armstrong number.",n);
     else
         printf("%d is not an Armstrong number.",n);
-}
    return 0;
 }
