@@ -1,15 +1,12 @@
 #include <stdio.h>
-void main()
+int main()
 {
  int n,i;
  int factorial=1;
-clrscr();
-    printf("Enter an integer");
+    printf("Enter an integer\n");
     scanf("%d",&n);
-
       if(n<0)
         printf("Error! Factorial of a negative number doesn't exist.");
-
     else
     {
         for(i=1;i<=n;++i)
@@ -18,6 +15,5 @@ clrscr();
         }
         printf("Factorial of %d=%llu",n,factorial);
     }
-
-    getch();
+    return 0;
 }
