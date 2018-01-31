@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int ele[20],size,i,max,min;
+	int ele[20],size,i,max;
 	printf("Enter the size");
 	scanf("%d",&size);
 	printf("\nEnter the elements:");
