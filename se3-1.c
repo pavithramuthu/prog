@@ -10,5 +10,5 @@ int main()
 		p=p+d;
 	}
 	printf("\n%d",sum);
-	return 0;
+return 0;
 }
