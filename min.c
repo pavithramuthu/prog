@@ -18,7 +18,6 @@ int main()
 			printf("\nmin=%d",min);
 		
 	}
-		
 	return 0;
 	
 }
