@@ -13,6 +13,6 @@ printf("aemstrong");
 }
 else
 {
-  printf("not a armstrong");
+ printf("not a armstrong");
 }
 }
