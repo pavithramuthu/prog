@@ -14,8 +14,8 @@ int main()
             		scanf("%d%d",&a[i],&k2[j]);
             		while(n==k1)
             		{
-            			c[k]=a[i]+k2[j];
-            			printf("sum is%d",c[k]);
+            		c[k]=a[i]+k2[j];
+            		printf("sum is%d",c[k]);
             		}
             	}
             }
