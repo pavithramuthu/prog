@@ -20,5 +20,5 @@ while(n!=0)
 	printf("no");
 }
 }
-	return n;
+return n;
 }
