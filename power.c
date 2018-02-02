@@ -9,7 +9,6 @@ void main()
 
     printf("Enter an exponent: ");
     scanf("%d", &ex);
-
     while (ex!= 0)
     {
         result *= base;
