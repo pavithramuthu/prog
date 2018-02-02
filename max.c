@@ -18,9 +18,9 @@ int main()
 		}
 		else
 		{
-				}
-			printf("\nmax=%d",max);
-			}
+		}
+		printf("\nmax=%d",max);
+	}
 		
 	
 	
