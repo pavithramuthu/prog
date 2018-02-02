@@ -7,8 +7,8 @@ int main()
     scanf("%lld", &num);
    while(num!=0)
     {     
-        count++;
-        num=num/10;
+       count++;
+       num=num/10;
     }
     printf("Total digits: %d",count);
     return 0;
