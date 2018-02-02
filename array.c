@@ -16,9 +16,7 @@ int main()
 	{
 		for(j=0;j<size;j++)
 		{
-	
-	
-		printf("\na[%d]----->%d\n",a[i],j);
+	printf("\na[%d]----->%d\n",a[i],j);
 	}
 	}
 	return 0;
