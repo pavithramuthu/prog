@@ -9,5 +9,4 @@ int main()
 	b=temp;
 	printf("%d\n%d",a,b);
 	return 0;
-
 }
