@@ -13,6 +13,6 @@ int main()
 			c=c+1;
 	}
 	}
-	printf("\n The number of spaces are%d:",c);
+	printf("\n Count is:%d:",c);
 	return 0;
 }
