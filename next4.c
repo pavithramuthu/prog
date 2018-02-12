@@ -2,15 +2,15 @@
 int main()
 {
 	int k,i,c=0;
-	char s;
-	printf("Enter the k value");
+            char s[100];
+	printf("Enter the string");
+	scanf("%s",&s);
+	printf("\nEnter the k value");
 	scanf("%d",&k);
-	printf("\nEnter the string:");
-	scanf("%c",&s);
 	for(i=1;i<=k;i++)
 	{
 	c++;	
-	printf("%c",s);
+	printf("\n%s",s);
 	}
 	return 0;
 }
