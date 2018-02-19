@@ -9,7 +9,7 @@ int main()
 	scanf("%d",&ele[i]);
 	}
 	max=min=ele[0];
-	for(i=0;i<;i++)
+	for(i=0;i<10;i++)
 	{
 		if(ele[i]>min)
 		{
